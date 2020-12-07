@@ -1,0 +1,47 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+
+}
+
+img {
+    height: 160px;
+    width: 160px;
+    margin:0 15px 0 15px;
+    padding: 0;
+}
+
+img:hover {
+    border: 5px solid black;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.lyrics {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 100%;
+}
+
+.img-container {
+    display:flex;
+    justify-content: center;
+}
+
+.lyrics-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
